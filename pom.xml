@@ -3,14 +3,14 @@
       xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.fonowizja.</groupId>
-    <artifactId>lombok_bean_validation</artifactId>
+   <groupId>com.fonowizja.</groupId>
+   <artifactId>lombok_bean_validation</artifactId>
    <packaging>jar</packaging>
    <version>1.0.0-SNAPSHOT</version>
 
    <name>#NAME</name>
-    <description>#DESC</description>
-    <url>fonowizja.pl</url>
+   <description>#DESC</description>
+   <url>fonowizja.pl</url>
 
    <properties>
       <!-- https://maven.apache.org/general.html#encoding-warning -->
@@ -48,15 +48,14 @@
          <version>${version.lombok}</version>
       </dependency>
 
-       <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
-       <dependency>
-           <groupId>org.hibernate</groupId>
-           <artifactId>hibernate-validator</artifactId>
-           <version>${version.hibernate.validator}</version>
-       </dependency>
+      <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
+      <dependency>
+         <groupId>org.hibernate</groupId>
+         <artifactId>hibernate-validator</artifactId>
+         <version>${version.hibernate.validator}</version>
+      </dependency>
 
-
-       <!--Log4J-->
+      <!--Log4J-->
       <dependency>
          <groupId>org.apache.logging.log4j</groupId>
          <artifactId>log4j-api</artifactId>
@@ -128,8 +127,6 @@
          <artifactId>maven-checkstyle-plugin</artifactId>
          <version>${version.maven.checkstyle.plugin}</version>
       </dependency>
-
-
 
    </dependencies>
 

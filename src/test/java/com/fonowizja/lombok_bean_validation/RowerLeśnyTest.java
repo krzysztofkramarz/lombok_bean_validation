@@ -6,6 +6,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
+ * Tej klasy nie modyfikuj
+ *
  * @author krzysztof.kramarz
  */
 public class RowerLeśnyTest
