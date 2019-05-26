@@ -17,6 +17,8 @@ import org.testng.annotations.Test;
 
 /**
  * Nie modyfikuj tej klasy, z wyjątkiem testStudent3()
+ * Czytaj uważnie assercje do testów, a otrzymasz Światło Medrców
+ *
  * @author krzysztof.kramarz
  */
 public class StudentTest
@@ -103,7 +105,6 @@ public class StudentTest
       assertThat(expected).isEqualTo(result);
    }
 
-
    @Test
    /**
     * Jeśli masz ochotę przekazać własciwe dane zgodnie z adnotacjami, które wymyśliłeś w porzednich zadaniach
@@ -113,9 +114,9 @@ public class StudentTest
    public void testStudent3()
    {
       List<String> przedmioty = ImmutableList.of("Filozofia", "Kompilatory");
-      Student student3 =  new Student("s", 40, przedmioty, "janek@tlen.pl", true, "14785236987");
+      Student student3 = new Student( ?????);
 
-       int   serviceResponse = service.acceptMessageFromExternalServis(student3);
+      int serviceResponse = service.acceptMessageFromExternalServis(student3);
 
       assertThat(serviceResponse).isEqualTo(0);
    }
