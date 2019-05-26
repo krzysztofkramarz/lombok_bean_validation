@@ -55,6 +55,21 @@
          <version>${version.hibernate.validator}</version>
       </dependency>
 
+      <!-- https://mvnrepository.com/artifact/javax.el/javax.el-api -->
+      <dependency>
+         <groupId>javax.el</groupId>
+         <artifactId>javax.el-api</artifactId>
+         <version>3.0.0</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.glassfish/javax.el -->
+      <dependency>
+         <groupId>org.glassfish</groupId>
+         <artifactId>javax.el</artifactId>
+         <version>3.0.0</version>
+      </dependency>
+
+
       <!--Log4J-->
       <dependency>
          <groupId>org.apache.logging.log4j</groupId>
