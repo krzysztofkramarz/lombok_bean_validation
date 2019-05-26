@@ -9,3 +9,10 @@ rozwiąz zadania, następnie
 git checkout rozwiazanie
 
 i zobacz rozwiązanie.
+
+
+Następnie wykonaj:
+
+git checkout zadanie_2
+
+rozwiąz zadanie

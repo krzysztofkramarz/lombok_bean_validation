@@ -1,13 +1,10 @@
 package com.fonowizja.lombok_bean_validation;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-
 /**
+ * Użyj jak najmniej adnotacji Lomboka, aby przeszły testy. Niech adnotacje nie będa nadmiarowe (np. gdy potrzebujesz @Getters, nie używaj @Data)
+ *
  * @author krzysztof.kramarz
  */
-@NoArgsConstructor(staticName = "of")
-@AllArgsConstructor
 class Przerzutka
 {
    private String producent;
