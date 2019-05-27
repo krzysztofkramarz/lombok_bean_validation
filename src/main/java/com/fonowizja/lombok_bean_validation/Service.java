@@ -1,7 +1,7 @@
 package com.fonowizja.lombok_bean_validation;
 
 /**
- * Tutaj nic nize zmieniaj
+ * Tutaj nic nie zmieniaj
  * Atrapa serwisu konsumującego jakies dane
  *
  * @author krzysztof.kramarz

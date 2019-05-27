@@ -17,7 +17,7 @@ import org.testng.annotations.Test;
 
 /**
  * Nie modyfikuj tej klasy, z wyjątkiem testStudent3()
- * Czytaj uważnie assercje do testów, a otrzymasz Światło Medrców
+ * Czytaj uważnie asercje do testów, a otrzymasz Światło Medrców
  *
  * @author krzysztof.kramarz
  */
@@ -31,7 +31,6 @@ public class StudentTest
    @BeforeClass
    public void setStudent1()
    {
-      List<String> przedmioty1 = ImmutableList.of();
       student1 = new Student(null, 17, null, "janek.tlen.pl", false, "5254112");
    }
 
