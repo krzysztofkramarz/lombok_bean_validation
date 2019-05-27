@@ -206,23 +206,16 @@ public class AdresTest {
 
         List<String> expectedAdres = new LinkedList<>();
 
-//        expectedAdres.add("must not be null");
         expectedAdres.add(decode("bXVzdCBub3QgYmUgbnVsbA=="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgbnVsbA=="));
-//        expectedAdres.add("must be false");
         expectedAdres.add(decode("bXVzdCBiZSBmYWxzZQ=="));
-//        expectedAdres.add("must match \"\\d{2}-\\d{3}\"");
         expectedAdres.add(decode("bXVzdCBtYXRjaCAiXGR7Mn0tXGR7M30i"));
-//        expectedAdres.add("must match \"\\w\"");
         expectedAdres.add(decode("bXVzdCBtYXRjaCAiXHci"));
-//        expectedAdres.add("must not be blank");
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
-//        expectedAdres.add("must match \"\\+(48)\\d{9}\"");
         expectedAdres.add(decode("bXVzdCBtYXRjaCAiXCsoNDgpXGR7OX0i"));
-//        expectedAdres.add("must be a well-formed email address");
         expectedAdres.add(decode("bXVzdCBiZSBhIHdlbGwtZm9ybWVkIGVtYWlsIGFkZHJlc3M="));
 
         List<String> resultAdres = new LinkedList<>();
@@ -236,12 +229,10 @@ public class AdresTest {
 
         // ######################   OSOBA ########################
         List<String> expectedOsoba = new LinkedList<>();
-//        expectedOsoba.add("must not be blank");
         expectedOsoba.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedOsoba.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedOsoba.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedOsoba.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
-//        expectedOsoba.add("must match \"\\d{11}\"");
         expectedOsoba.add(decode("bXVzdCBtYXRjaCAiXGR7MTF9Ig=="));
 
         List<String> resultOsoba = new LinkedList<>();
@@ -265,29 +256,19 @@ public class AdresTest {
 
         List<String> expectedAdres = new LinkedList<>();
 
-//        expectedAdres.add("must be false");
         expectedAdres.add(decode("bXVzdCBiZSBmYWxzZQ=="));
-//        expectedAdres.add("must match \"\\d{2}-\\d{3}\"");
         expectedAdres.add(decode("bXVzdCBtYXRjaCAiXGR7Mn0tXGR7M30i"));
-//        expectedAdres.add("must match \"\\w\"");
         expectedAdres.add(decode("bXVzdCBtYXRjaCAiXHci"));
-//        expectedAdres.add("must not be blank");
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
-//        expectedAdres.add("must not be empty");
         expectedAdres.add(decode("bXVzdCBub3QgYmUgZW1wdHk="));
-//        expectedAdres.add("must match \"\\+(48)\\d{9}\"");
         expectedAdres.add(decode("bXVzdCBtYXRjaCAiXCsoNDgpXGR7OX0i"));
-//        expectedAdres.add("must be a well-formed email address");
         expectedAdres.add(decode("bXVzdCBiZSBhIHdlbGwtZm9ybWVkIGVtYWlsIGFkZHJlc3M="));
-//        expectedAdres.add("must be greater than or equal to 1");
         expectedAdres.add(decode("bXVzdCBiZSBncmVhdGVyIHRoYW4gb3IgZXF1YWwgdG8gMQ=="));
         expectedAdres.add(decode("bXVzdCBiZSBncmVhdGVyIHRoYW4gb3IgZXF1YWwgdG8gMQ=="));
-//        expectedAdres.add("must be greater than or equal to 0");
         expectedAdres.add(decode("bXVzdCBiZSBncmVhdGVyIHRoYW4gb3IgZXF1YWwgdG8gMA=="));
-//        expectedAdres.add("size must be between 1 and 12");
         expectedAdres.add(decode("c2l6ZSBtdXN0IGJlIGJldHdlZW4gMSBhbmQgMTI="));
 
         List<String> resultAdres = new LinkedList<>();
@@ -323,27 +304,18 @@ public class AdresTest {
 
         List<String> expectedAdres = new LinkedList<>();
 
-//        expectedAdres.add("must be false");
         expectedAdres.add(decode("bXVzdCBiZSBmYWxzZQ=="));
-//        expectedAdres.add("must match \"\\d{2}-\\d{3}\"");
         expectedAdres.add(decode("bXVzdCBtYXRjaCAiXGR7Mn0tXGR7M30i"));
-//        expectedAdres.add("must match \"\\w\"");
         expectedAdres.add(decode("bXVzdCBtYXRjaCAiXHci"));
-//        expectedAdres.add("must not be blank");
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
-//        expectedAdres.add("must match \"\\+(48)\\d{9}\"");
         expectedAdres.add(decode("bXVzdCBtYXRjaCAiXCsoNDgpXGR7OX0i"));
-//        expectedAdres.add("must be a well-formed email address");
         expectedAdres.add(decode("bXVzdCBiZSBhIHdlbGwtZm9ybWVkIGVtYWlsIGFkZHJlc3M="));
-//        expectedAdres.add("must be greater than or equal to 1");
         expectedAdres.add(decode("bXVzdCBiZSBncmVhdGVyIHRoYW4gb3IgZXF1YWwgdG8gMQ=="));
         expectedAdres.add(decode("bXVzdCBiZSBncmVhdGVyIHRoYW4gb3IgZXF1YWwgdG8gMQ=="));
-//        expectedAdres.add("must be greater than or equal to 0");
         expectedAdres.add(decode("bXVzdCBiZSBncmVhdGVyIHRoYW4gb3IgZXF1YWwgdG8gMA=="));
-//        expectedAdres.add("size must be between 1 and 12");
         expectedAdres.add(decode("c2l6ZSBtdXN0IGJlIGJldHdlZW4gMSBhbmQgMTI="));
 
         List<String> resultAdres = new LinkedList<>();
@@ -358,7 +330,6 @@ public class AdresTest {
         List<String> expectedOsoba = new LinkedList<>();
 
         List<String> resultOsoba = new LinkedList<>();
-        //        expectedOsoba.add("must not be blank");
         expectedOsoba.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedOsoba.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedOsoba.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
@@ -375,7 +346,6 @@ public class AdresTest {
         expectedOsoba.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedOsoba.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedOsoba.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
-//        expectedOsoba.add("must match \"\\d{11}\"");
         expectedOsoba.add(decode("bXVzdCBtYXRjaCAiXGR7MTF9Ig=="));
         expectedOsoba.add(decode("bXVzdCBtYXRjaCAiXGR7MTF9Ig=="));
         expectedOsoba.add(decode("bXVzdCBtYXRjaCAiXGR7MTF9Ig=="));
@@ -400,26 +370,17 @@ public class AdresTest {
 
         List<String> expectedAdres = new LinkedList<>();
 
-//        expectedAdres.add("must match \"\\d{2}-\\d{3}\"");
         expectedAdres.add(decode("bXVzdCBtYXRjaCAiXGR7Mn0tXGR7M30i"));
-//        expectedAdres.add("must match \"\\w\"");
         expectedAdres.add(decode("bXVzdCBtYXRjaCAiXHci"));
-//        expectedAdres.add("must not be blank");
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
         expectedAdres.add(decode("bXVzdCBub3QgYmUgYmxhbms="));
-//        expectedAdres.add("must not be empty");
         expectedAdres.add(decode("bXVzdCBub3QgYmUgZW1wdHk="));
-//        expectedAdres.add("must match \"\\+(48)\\d{9}\"");
         expectedAdres.add(decode("bXVzdCBtYXRjaCAiXCsoNDgpXGR7OX0i"));
-//        expectedAdres.add("must be a well-formed email address");
         expectedAdres.add(decode("bXVzdCBiZSBhIHdlbGwtZm9ybWVkIGVtYWlsIGFkZHJlc3M="));
-//        expectedAdres.add("must be greater than or equal to 1");
         expectedAdres.add(decode("bXVzdCBiZSBncmVhdGVyIHRoYW4gb3IgZXF1YWwgdG8gMQ=="));
-//        expectedAdres.add("must be greater than or equal to 0");
         expectedAdres.add(decode("bXVzdCBiZSBncmVhdGVyIHRoYW4gb3IgZXF1YWwgdG8gMA=="));
-//        expectedAdres.add("must be greater than or equal to 0");
         expectedAdres.add(decode("bXVzdCBiZSBncmVhdGVyIHRoYW4gb3IgZXF1YWwgdG8gMA=="));
 
         List<String> resultAdres = new LinkedList<>();
