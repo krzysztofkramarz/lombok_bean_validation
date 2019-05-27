@@ -1,18 +1,2 @@
-Warsztaty z biblioteki Lombok:
-
-Prosze, pobierz repozytorium, wykonaj:
-
-git checkout zadanie
-
-rozwiąz zadania, następnie
-
-git checkout rozwiazanie
-
-i zobacz rozwiązanie.
-
-
-Następnie wykonaj:
-
-git checkout zadanie_2
-
-rozwiąz zadanie
+Zadanie 2:
+przypomocy javap lub innego narzędzia zaobserwuj i przedstaw, jakie metody w bytecodzie pojawiły się dzięki Lombokowi
